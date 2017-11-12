@@ -11,3 +11,15 @@
 1510498107 source:c:\users\gabri\desktop\paa project\tree.cpp
 	"Tree.h"
 
+1510515087 source:/home/bielcito/Documentos/Projetos/PAAProject/main.cpp
+	<iostream>
+	<vector>
+	"Tree.h"
+
+1510515087 /home/bielcito/Documentos/Projetos/PAAProject/Tree.h
+	<vector>
+	<string>
+
+1510515087 source:/home/bielcito/Documentos/Projetos/PAAProject/Tree.cpp
+	"Tree.h"
+
