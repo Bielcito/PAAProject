@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1510506778 source:c:\users\gabri\desktop\paa project\main.cpp
+	<iostream>
+	<vector>
+	"Tree.h"
+
+1510507005 c:\users\gabri\desktop\paa project\tree.h
+	<vector>
+	<string>
+
+1510498107 source:c:\users\gabri\desktop\paa project\tree.cpp
+	"Tree.h"
+
