@@ -1,1 +1,1 @@
-g++ main.cpp Tree.cpp -o bin/main -std=c++11
+g++ main.cpp Tree.cpp -o main -std=c++11
