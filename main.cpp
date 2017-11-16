@@ -9,13 +9,18 @@ using std::vector;
 int main()
 {
     Tree a = Tree();
+    Tree b = Tree();
+
+    // Defining with matrix:
     vector< vector<int> > m (3, vector<int>(3, 0));
     m[0][1] = 5;
     m[0][2] = 10;
     m[1][2] = 3;
 
-    a.defineMatrix(&m, 3);
-    cout << a.toString() << endl;
+    a.defineMatrix(m, 3);
+
+    // Get min tree:
+    vector<int> min = a.minTree();
 
     return 0;
 }
