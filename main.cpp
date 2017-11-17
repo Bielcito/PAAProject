@@ -16,7 +16,6 @@ int main()
     m[0][1] = 5;
     m[0][2] = 10;
     m[1][2] = 3;
-
     a.defineMatrix(m, 3);
 
     // Get min tree:

@@ -9,6 +9,7 @@ using std::string;
 using std::cout;
 using std::endl;
 using std::to_string;
+using std::cin;
 
 class Tree
 {
@@ -21,15 +22,17 @@ class Tree
         vector<int> minTree();
 
         string toString();
+		string markedToString();
 
     private:
         unsigned size;
         vector< vector<int> > m;
         vector<int> getMinEdge();
+		bool hasLoop();
 
-        // 0 - Não visitado.
-        // 1 - Visitado e usando.
-        // 2 - Visitado mas não pode usar.
+		// 0 - Non visited;
+		// 1 - Visited and Used;
+		// 2 - Visited and not used;
         vector< vector<int> > marked;
 };
 
